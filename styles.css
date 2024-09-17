@@ -1,0 +1,51 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para los botones cuando se pasa el ratón sobre ellos */
+button:hover {
+    background-color: #ff3f2f;
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #333333;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #666666;
+    font-size: 16px;
+}
